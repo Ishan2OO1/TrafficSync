@@ -8,13 +8,17 @@ TrafficSync uses AI agents to analyze real-time traffic data, dynamically adjust
 
 ![TrafficSync Architecture](mermaid-diagram-2025-04-05-131456.png)
 
-## Key Results
+## Dataset
 
-- **Normal response time:** 360 seconds
-- **Emergency response time:** 120 seconds
-- **Improvement:** 66.7% faster emergency response
-- **Fairness index:** 0.997 (very fair)
-- **Average wait time:** 40.5 vehicles per intersection
+Our system uses a comprehensive traffic dataset from Kaggle:
+
+- **Content:** Vehicle counts (cars, bikes, buses, trucks) collected via computer vision
+- **Frequency:** 15-minute intervals over one month
+- **Features:** Time, date, day of week, vehicle counts, traffic condition (Heavy/High/Normal/Low)
+- **Application:** Enables realistic traffic pattern simulation and algorithm validation
+
+**Source:** [Traffic Prediction Dataset (Kaggle)](https://www.kaggle.com/datasets/hasibullahaman/traffic-prediction-dataset)
+
 
 ## Features
 
@@ -32,6 +36,14 @@ The system consists of multiple AI agents working together:
 - **Zone Coordinator Agents:** Optimize traffic patterns across multiple intersections
 - **Emergency Response Agent:** Creates priority routing for emergency vehicles
 - **Data Processing Agent:** Analyzes traffic patterns and provides insights
+
+## Key Results
+
+- **Normal response time:** 360 seconds
+- **Emergency response time:** 120 seconds
+- **Improvement:** 66.7% faster emergency response
+- **Fairness index:** 0.997 (very fair)
+- **Average wait time:** 40.5 vehicles per intersection
 
 ## Project Structure
 
