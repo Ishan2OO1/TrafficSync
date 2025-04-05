@@ -6,6 +6,8 @@ A multi-agent AI system for optimizing urban traffic flow and emergency vehicle 
 
 TrafficSync uses AI agents to analyze real-time traffic data, dynamically adjust signal timing, and create priority corridors for emergency vehicles. The system ensures fairness in traffic distribution while minimizing overall congestion.
 
+![TrafficSync Architecture](mermaid-diagram-2025-04-05-131456.png)
+
 ## Key Results
 
 - **Normal response time:** 360 seconds
